@@ -211,7 +211,7 @@ public class Calculos {
 
         // Validación para Moneda Objetivo
         while (true) {
-            System.out.println("Ingrese la moneda objetivo (3 letras, ej: ARS):");
+            System.out.println("Ingrese la moneda objetivo (3 letras, ej: PYG):");
             this.monedaObjetivo = lectura.nextLine().toUpperCase().trim();
             if (monedaObjetivo.length() == 3 && monedaObjetivo.matches("[A-Z]+")) {
                 break;
